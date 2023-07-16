@@ -1,6 +1,6 @@
 
 
-document.title= "Wordle_Do it your self"
+
 
 const clockElement= document.querySelector("#clock");
 const timeElement= document.querySelector("#timer");

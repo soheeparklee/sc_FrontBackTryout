@@ -1,0 +1,71 @@
+
+/* HEADER */
+#title{
+    padding: 10px;
+    text-align: center;
+    color: tomato;
+}
+
+.fa-solid fa-bars{
+    color: pink;
+}
+#bar{
+    color: blue
+}
+.fas fa-heart{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+/* MAIN */
+main{
+    gap: 3px;
+}
+
+#box_line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3px;
+}
+
+#box{
+    border: 3px solid #d3d6da;
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+}
+
+/* KEYBOARD */
+#keyboard_line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3px;
+}
+
+#keyboardSpecial{
+    background-color:  #d3d6da;
+    width: 80px;
+    height: 60px;
+    margin: 3px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 50px;
+}
+#keyboard{
+    background-color:  #d3d6da;
+    width: 40px;
+    height: 60px;
+    margin: 3px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 50px;
+    
+}
+
