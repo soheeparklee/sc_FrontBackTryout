@@ -9,12 +9,8 @@
 .fa-solid fa-bars{
     color: pink;
 }
-#bar{
-    color: blue
-}
-.fas fa-heart{
-    display: flex;
-    align-items: flex-end;
+#timer{
+    display: inline;
 }
 
 
