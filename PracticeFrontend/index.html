@@ -4,12 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+    <style>
+        .box{
+    position: absolute;
+}
+
+.bell img{
+    width: 100px;
+    height: 100px;
+}
+
+.circle img{
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top:-100px;
+    left: 80px;
+    color: pink;
+    
+
+}
+    </style>
 </head>
 <body>
-    
-    <h1 id="clock">00:00</h1>
-    <h2 id="timer">00:00</h2>
+    <div class="box">
+    <div class="bell">
+        <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F83ee4623-2ee4-4249-b185-0e9603baba49%2FUntitled.png?table=block&id=56789c77-2370-4c6c-97d6-e1c28038ec49&cache=v2" alt="">
+    </div>
+
+    <div class="circle">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/8b/Red_Circle_full.png" alt="">
+    </div>
+
+    <!-- <div class="circle">
+        <img src="./assets/filled-circle.png" alt="">
+    </div> -->
+    </div>
+
     <script src="app.js"></script>
 </body>
 </html>

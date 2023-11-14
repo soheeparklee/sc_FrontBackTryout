@@ -1,4 +1,19 @@
-#titleDiv{
-    padding: 10px;
-    text-align: center;
+.box{
+    position: absolute;
+}
+
+.bell img{
+    width: 100px;
+    height: 100px;
+}
+
+.circle img{
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top:-100px;
+    left: 80px;
+    color: pink;
+    
+
 }
