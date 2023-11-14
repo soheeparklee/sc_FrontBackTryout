@@ -17,3 +17,21 @@
     
 
 }
+
+.heart{
+    width: 200px;
+    height: 200px;
+    border: 10px solid red;
+    margin: 10px;
+    padding: 10px;
+    background-color: aquamarine;
+}
+.star{
+    width: 200px;
+    height: 200px;
+    border: 10px solid red;
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 100px;
+    background-color: aquamarine;
+}
