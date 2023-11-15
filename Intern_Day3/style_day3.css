@@ -16,7 +16,6 @@ div{
 .hook{
     width: 100px;
     height: 100px;
-    transform: scaleX(-1);
     animation: hook 1s alternate infinite;
 }
 
