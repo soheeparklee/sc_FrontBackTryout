@@ -1,0 +1,42 @@
+div{
+    width: 500px;
+    height: 500px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fish{
+    width: 100px;
+    height: 100px;
+    animation: fish 1s alternate infinite;
+}
+
+.hook{
+    width: 100px;
+    height: 100px;
+    transform: scaleX(-1);
+    animation: hook 1s alternate infinite;
+}
+
+@keyframes fish {
+    0%{
+        transform: translateX(-100px);
+        
+    } 
+    50%{
+        transform: scaleX(-1);
+    }
+    100%{
+        transform: translateX(50px);
+    }
+}
+@keyframes hook{
+    from{
+        transform: translateY(50px);
+        
+    } to{
+        transform: translateY(0px);
+    }
+}
